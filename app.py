@@ -12,7 +12,7 @@ def load_model():
     return joblib.load(MODEL_FILE)
 
 st.title("🌧️ Prediksi Hujan Besok")
-st.subheader("Rain in Australia Prediction")
+st.subheader("Prediksi Hujan Australia")
 st.write("Masukkan kondisi cuaca hari ini untuk memperkirakan apakah besok akan terjadi hujan.")
 
 if not os.path.exists(MODEL_FILE):
